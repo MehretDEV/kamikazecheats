@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Kamikaze Cheats</title>
+    <style>
+        /* Estilos CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #8b169b;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            max-width: 150px;
+            height: auto;
+            border-radius: 50%; /* Deixa a logo redonda */
+            overflow: hidden; /* Esconde partes da imagem que ultrapassam o círculo */
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery-item:hover {
+            transform: translateY(-5px);
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+        .gallery-item:hover .overlay {
+            opacity: 1;
+        }
+        .overlay p {
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        .buy-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .buy-button:hover {
+            background-color: #0056b3;
+        }
+
+/* Estilos para o rodapé */
+footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            
+        }
+        footer p {
+            margin: 0;
+        }
+
+        .discord-button {
+            padding: 10px 20px;
+            background-color: #000000;
+            color: #7289DA;
+            text-decoration: none;
+            border: 2px solid #7289DA;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+        }
+        .discord-button:hover {
+            background-color: #7289DA;
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+        <a href="https://discord.gg/DVqfwfVJ" target="_blank" class="discord-button">Discord suporte/dúvidas</a>
+        <!-- Seu cabeçalho existente -->
+    </header>
+
+    <header>
+        <img src="https://cdn.discordapp.com/attachments/1189364035053961237/1189386887392137376/Red_and_Black_Badge_Esports_Logo.jpg?ex=659df9db&is=658b84db&hm=685a8e04cc3cf7cf629127b258c59d0ee6235bf14ce25688530d6bf3ce42d333&" class="logo">
+        <h1>Kamikaze Cheats</h1>
+        <div></div> <!-- Espaço vazio para ajustar layout, você pode adicionar elementos aqui -->
+    </header>
+
+    <div class="gallery">
+        <!-- Adicione aqui os links para as imagens, descrições e botões de compra -->
+        <div class="gallery-item">
+            <img src="https://media.discordapp.net/attachments/1189364035053961237/1189386887392137376/Red_and_Black_Badge_Esports_Logo.jpg?ex=659df9db&is=658b84db&hm=685a8e04cc3cf7cf629127b258c59d0ee6235bf14ce25688530d6bf3ce42d333&=&format=webp&width=468&height=468" alt="Descrição da Imagem 1">
+            <div class="overlay">
+                <p>Semanal 7 Dias: 60$</p>
+                <a href="https://discord.gg/DVqfwfVJ" class="buy-button">Comprar</a>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://media.discordapp.net/attachments/1189364035053961237/1189386887392137376/Red_and_Black_Badge_Esports_Logo.jpg?ex=659df9db&is=658b84db&hm=685a8e04cc3cf7cf629127b258c59d0ee6235bf14ce25688530d6bf3ce42d333&=&format=webp&width=468&height=468" alt="Descrição da Imagem 2">
+            <div class="overlay">
+                <p>Mensal: 80$</p>
+                <a href="https://discord.gg/DVqfwfVJ" class="buy-button">Comprar</a>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://media.discordapp.net/attachments/1189364035053961237/1189386887392137376/Red_and_Black_Badge_Esports_Logo.jpg?ex=659df9db&is=658b84db&hm=685a8e04cc3cf7cf629127b258c59d0ee6235bf14ce25688530d6bf3ce42d333&=&format=webp&width=468&height=468" alt="Descrição da Imagem 3">
+            <div class="overlay">
+                <p>LifeTime: 200$</p>
+                <a href="https://discord.gg/DVqfwfVJ" class="buy-button">Comprar</a>
+            </div>
+            
+        </div>
+        <!-- Adicione mais imagens, descrições e botões de compra conforme necessário -->
+    </div>
+    <footer>
+        <p>&copy; Kamikaze Cheats Todos os Direitos Reservados</p>
+    </footer>  
+</body>
+</html>
